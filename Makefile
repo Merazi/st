@@ -54,5 +54,6 @@ install: st
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/st
 	rm -f $(DESTDIR)$(MANPREFIX)/man1/st.1
+	rm -f "/usr/share/applications/Suckless Terminal.desktop"
 
 .PHONY: all options clean dist install uninstall
